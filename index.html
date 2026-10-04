@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1b1720">
+  <meta name="description" content="A birthday love letter made just for Nuzra.">
+  <title>For Nuzra, With Love</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="site-grain" aria-hidden="true"></div>
+  <header class="story-nav" aria-label="Story navigation">
+    <a class="brand" href="#home" aria-label="For Nuzra, home"><span>for Nuzra</span></a>
+    <nav class="nav-links" id="story-menu"><a href="#meaning">Our bond</a><a href="#album">The album</a><a href="#videos">Our videos</a><a href="#reasons">20 reasons</a><a href="#letter">A letter</a></nav>
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-controls="story-menu" aria-expanded="false" aria-label="Open navigation"><span></span><span></span><span></span></button>
+    <a class="nav-heart" href="#wish" aria-label="Make a wish">Make a wish</a>
+  </header>
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-sky" aria-hidden="true"><span class="moon"></span><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><div class="hero-stars"></div><div class="hero-confetti" id="confetti"></div></div>
+      <div class="hero-sash" id="hero-sash" aria-hidden="true"><span>Happy Birthday, Nuzra · Celebrated with love</span></div>
+      <div class="hero-copy">
+        <p class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span> a little universe, made for you <span class="eyebrow-line"></span></p>
+        <h1 id="hero-title"><span class="title-small">Happy birthday,</span><span class="title-script">my love<span class="title-period">.</span></span></h1>
+        <div class="hero-subtitle"><p>Today is a celebration of the beautiful person you are,</p><p>and of how much brighter my world feels with you in it.</p></div>
+        <a class="scroll-cue" href="#meaning"><span>begin our little story</span><i>↓</i></a>
+      </div>
+      <span class="hero-tag tag-left">you make life feel like a little more magic</span><span class="hero-tag tag-right">today, every candle is for you</span>
+      <div class="hero-bottom"><span>01 / 08</span><span class="bottom-rule"></span><span>scroll to unwrap</span></div>
+    </section>
+
+    <section class="quote-section section-pad" id="meaning">
+      <div class="section-kicker"><span>01</span><span class="kicker-rule"></span><span>the feeling, in a few words</span></div>
+      <div class="quote-layout">
+        <div><p class="eyebrow">a thought that keeps finding its way back</p><h2>Some things are<br><em>simply felt.</em></h2></div>
+        <div class="quote-box"><span class="quote-mark">“</span><p class="rotating-line" id="love-line" aria-live="polite"></p><div class="quote-meta"><span>one of a hundred reasons</span><div class="quote-progress"><i id="quote-progress"></i></div></div></div>
+      </div>
+      <div class="bond-intro"><p class="eyebrow">what you mean to me</p><h2 class="script-heading">A bond that feels like <em>home.</em></h2><p class="intro-copy">I don’t need a grand story to know what matters. It’s in the small, steady feeling of having you in my corner—and wanting to be in yours.</p></div>
+      <div class="bond-grid">
+        <article class="bond-item reveal"><span class="bond-number">01</span><h3>Room to be myself</h3><p>With you, I can set down the performance and just be a person. That kind of ease is rare, and I never take it for granted.</p></article>
+        <article class="bond-item reveal"><span class="bond-number">02</span><h3>A softer place to land</h3><p>Your presence has a way of making a full day feel a little less heavy. I hope I can be that kind of comfort for you, too.</p></article>
+        <article class="bond-item reveal"><span class="bond-number">03</span><h3>Being understood</h3><p>There’s something lovely about feeling heard without having to find perfect words. I treasure the patience and care between us.</p></article>
+        <article class="bond-item reveal"><span class="bond-number">04</span><h3>Choosing to grow</h3><p>I love the idea of learning each other more, making space for change, and meeting every new version of life side by side.</p></article>
+      </div>
+    </section>
+
+    <section class="album-section section-pad" id="album">
+      <div class="section-kicker"><span>02</span><span class="kicker-rule"></span><span>little frames of you</span></div>
+      <div class="album-heading"><div><p class="eyebrow">little frames of you</p><h2>My favorite view<br>is <em>you being you.</em></h2></div><p class="album-note">Every portrait has a line of its own—just like every version of you has something I adore.</p></div>
+      <div class="album-stage">
+        <div class="album-art-wrap" id="album-art-wrap"><img id="album-image" src="assets/images/nuzra/photo-01.jpeg" alt="A quiet moment together"><span class="photo-stamp">a moment<br>to keep</span><span class="photo-index" id="photo-index">01 — 29</span></div>
+        <div class="album-caption" id="album-caption" aria-live="polite"><span class="caption-category" id="photo-category">A QUIET MOMENT TOGETHER</span><h3 id="photo-line">My favorite kind of peace is a quiet moment with you close by.</h3><p id="photo-subline">Close, comfortable, and completely us.</p></div>
+        <div class="album-controls"><button class="round-control" id="photo-prev" aria-label="Previous photo">←</button><div class="album-dots" id="album-dots" aria-label="Choose a photo"></div><button class="round-control" id="photo-next" aria-label="Next photo">→</button><span class="album-auto">AUTO · <span id="auto-state">ON</span></span></div>
+      </div>
+      <div class="album-footnote"><span class="tiny-star">✦</span> 29 frames of you, each just as you shared it <span class="tiny-star">✦</span></div>
+    </section>
+
+    <section class="album-section video-section section-pad" id="videos">
+      <div class="section-kicker"><span>03</span><span class="kicker-rule"></span><span>little moving memories</span></div>
+      <div class="album-heading"><div><p class="eyebrow">moments that come with their own soundtrack</p><h2>A few seconds,<br><em>kept forever.</em></h2></div><p class="album-note" id="video-audio-note">The clips start when you reach this section. If your phone starts one muted, tap its volume control for the original sound. The birthday tune pauses while clip sound plays.</p></div>
+      <div class="album-stage video-stage">
+        <div class="video-frame-wrap" id="video-frame-wrap"><video class="memory-video" id="memory-video" controls playsinline preload="metadata" aria-label="A moving memory of Nuzra"></video></div>
+        <div class="album-caption" id="video-caption" aria-live="polite"><span class="caption-category" id="video-category">A MEMORY IN MOTION</span><h3 id="video-line">A tiny piece of us, saved in motion—and one I want to watch again.</h3><p id="video-subline">A little moment, with its own sound and feeling.</p></div>
+        <div class="album-controls video-controls"><button class="round-control" id="video-prev" aria-label="Previous video">←</button><div class="album-dots video-dots" id="video-dots" aria-label="Choose a video"></div><button class="round-control" id="video-next" aria-label="Next video">→</button><span class="album-auto">CLIP · <span id="video-index">01 / 16</span></span></div>
+      </div>
+      <div class="album-footnote">Sixteen little memories, sound and all</div>
+    </section>
+
+    <section class="birthday-section section-pad" id="birthday">
+      <div class="birthday-glow"></div><div class="section-kicker"><span>04</span><span class="kicker-rule"></span><span>for this new year of you</span></div>
+      <div class="birthday-heading"><p class="eyebrow">today belongs to you</p><h2>May this year<br>be <em>gentle & golden.</em></h2><p class="birthday-date" aria-label="Your birthday is 12 November"><span class="birthday-date-day">12</span><span class="birthday-date-copy"><strong>NOVEMBER</strong><small>a day made for you</small></span></p><p>A few wishes for the next chapter, from someone who wants the very best for you.</p></div>
+      <div class="wish-list" id="wish-list"></div>
+      <div class="birthday-last">And more than anything, I hope you feel <span>deeply celebrated</span>—because you deserve to.</div>
+    </section>
+
+    <section class="reasons-section section-pad" id="reasons">
+      <div class="section-kicker"><span>05</span><span class="kicker-rule"></span><span>little by little, a lot of love</span></div>
+      <div class="reasons-heading"><p class="eyebrow">I could keep going</p><h2>20 reasons you’re<br><em>so important to me.</em></h2><p>Not a complete list. Just a few things I hope you always know.</p></div>
+      <div class="reasons-grid" id="reasons-grid"></div>
+      <p class="reasons-end script-heading">And still, this is only <em>the beginning.</em></p>
+    </section>
+
+    <section class="letter-section section-pad" id="letter">
+      <div class="section-kicker"><span>06</span><span class="kicker-rule"></span><span>folded up with care</span></div>
+      <div class="letter-wrap"><div class="letter-side"><p class="eyebrow">a little letter for you</p><h2>For the days<br>you need to<br><em>hear it again.</em></h2><span class="letter-decoration">with all my heart</span></div>
+        <article class="letter-paper"><div class="paper-top"><span>SHĀHI FARMĀN</span><span>ISSUED WITH LOVE · ALWAYS</span></div><p class="letter-decree">Farmān-e-Mohabbat</p><span class="letter-seal" aria-label="Nuzra">N</span><p class="letter-salutation">My love,</p><div class="letter-body"><p>On your birthday, I want you to know how grateful I am that you’re you. Your presence has become one of those quiet, beautiful parts of my life that I wouldn’t want to imagine without.</p><p>I admire your heart, the way you bring your own light into a room, and all the little things that make you unmistakably yourself. I hope today gives some of that joy back to you.</p><p>May you feel loved in all the ways you deserve. I’m cheering for every dream you hold, every new beginning, and every ordinary day that gets to have you in it.</p></div><p class="letter-signoff">Happy birthday, my love.<br><span>Yours, with so much love</span></p></article></div>
+    </section>
+
+    <section class="wish-section section-pad" id="wish">
+      <div class="wish-confetti" id="wish-confetti" aria-hidden="true"></div>
+      <div class="section-kicker"><span>07</span><span class="kicker-rule"></span><span>one last little birthday ritual</span></div>
+      <div class="cake-layout"><div class="cake-copy"><p class="eyebrow">close your eyes for a second</p><h2>Make a <em>wish,</em><br>Nuzra.</h2><p>Whatever it is, I hope the year ahead brings you closer to it. Take it all in, then send a wish.</p><button class="wish-button" id="make-wish"><span>Make a wish</span><i>✦</i></button><p class="wish-response" id="wish-response" aria-live="polite">I hope it comes true in the loveliest way.</p></div>
+        <div class="cake-scene room-scene" id="room-scene" aria-label="A birthday room filled with pink balloons and flowers"><div class="cake-sparkles" id="cake-sparkles"></div><img class="birthday-room" src="assets/images/birthday/room-decor.jpeg" alt="A romantic birthday room decorated with pink balloons, hearts and flowers"></div></div>
+    </section>
+  </main>
+  <footer class="ending"><p class="eyebrow">to the girl who makes my world feel brighter</p><h2>Happy birthday,<br><em>Nuzra.</em></h2><p class="footer-note">May you always know how loved you are.</p><a href="#home" class="back-top">back to the beginning ↑</a></footer>
+  <audio id="birthday-audio" src="assets/audio/happy-birthday-instrumental.mp3" preload="auto" autoplay loop hidden></audio>
+  <button class="music-button" id="music-button" aria-label="Play Happy Birthday instrumental" title="Play Happy Birthday instrumental"><span class="music-icon">♫</span><span class="music-label">birthday tune</span></button>
+</body>
+</html>
+
